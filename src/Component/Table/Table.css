@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+.table {
+  width: 80%;
+  height: auto;
+  margin: 50px auto;
+}
+
+.table-content {
+  width: 100%;
+}
+
+.table-filter {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select {
+  width: 120px;
+  height: 30px;
+}
+.select > option {
+  width: 150px;
+  padding: 10px;
+}
+.table-content-header-main {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 5px;
+}
+
+.table-content-header {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.table-content-header:hover {
+  /* background-color: #ccc; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.table-content-header span {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.table-content-header > input[type="checkbox"] {
+  width: 32px;
+}
+
+.table-content-header > input[type="checkbox"]:checked .table-content-header {
+  background-color: #eb3b5a;
+}
+
+.delete-item {
+  cursor: pointer;
+  margin-left: 20px;
+  color: red;
+}
+
+.notes {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
